@@ -1,7 +1,15 @@
 {
     "title": "一个嵌入式操作系统的实现过程",
     "language": "zh-hans",
-    "plugins": ["katex", "prism", "prism-themes", "-highlight", "include-codeblock", "ace"],
+    "plugins": [
+        "katex",
+        "prism",
+        "prism-themes",
+        "-highlight",
+        "include-codeblock",
+        "ace",
+        "splitter",
+        "chapter-fold"],
 
     "pluginsConfig": {
         "prism": {
