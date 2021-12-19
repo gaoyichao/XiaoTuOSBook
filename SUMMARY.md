@@ -1,14 +1,14 @@
 # 目录
 
 * [引言](README.md)
-    * [一个嵌入式操作系统的实现过程](/Introduction/README.md)
-    * [读者对象](/Introduction/)
-    * [内容安排](/Introduction/)
-    * [致谢](/Introduction/)
+    * 一个嵌入式操作系统的实现过程
+    * 读者对象
+    * 内容安排
+    * 致谢
 
 * [第一部分：构建内核](/Part1.md)
-    * [1. 搭建工作环境：选择内核、处理器与工具链](/Chapter1/README.md)
-        * [1.1. 认识嵌入式操作系统内核](chapter1#1.1.-ren-shi-qian-ru-shi-cao-zuo-xi-tong-nei-he)
+    * [1. 搭建工作环境：选择内核、处理器与工具链](/Chapter1.md)
+        * 1.1. 认识嵌入式操作系统内核
             * 操作系统是什么
             * 嵌入式操作系统的特点
             * 内核要完成的工作
