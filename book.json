@@ -1,0 +1,19 @@
+{
+    "title": "一个嵌入式操作系统的实现过程",
+    "language": "zh-hans",
+    "plugins": ["katex", "prism", "prism-themes", "-highlight", "include-codeblock", "ace"],
+
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        }
+
+    }
+}
