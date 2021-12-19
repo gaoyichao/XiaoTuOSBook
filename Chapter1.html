@@ -1,10 +1,10 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-hans" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>1. 搭建工作环境：选择内核、处理器与工具链 · GitBook</title>
+        <title>1. 搭建工作环境：选择内核、处理器与工具链 · 一个嵌入式操作系统的实现过程</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -17,7 +17,15 @@
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
                 
             
                 
@@ -71,7 +79,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="输入并搜索" />
 </div>
 
             
@@ -592,7 +600,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本书使用 GitBook 发布
         </a>
     </li>
 </ul>
@@ -690,7 +698,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1. 搭建工作环境：选择内核、处理器与工具链","level":"1.2.1","depth":2,"next":{"title":"1.1. 认识嵌入式操作系统内核","level":"1.2.1.1","depth":3,"anchor":"#11-认识嵌入式操作系统内核","path":"Chapter1.md","ref":"Chapter1.md#11-认识嵌入式操作系统内核","articles":[{"title":"操作系统是什么","level":"1.2.1.1.1","depth":4,"ref":"","articles":[]},{"title":"嵌入式操作系统的特点","level":"1.2.1.1.2","depth":4,"ref":"","articles":[]},{"title":"内核要完成的工作","level":"1.2.1.1.3","depth":4,"ref":"","articles":[]},{"title":"内核的选择：微内核","level":"1.2.1.1.4","depth":4,"ref":"","articles":[]}]},"previous":{"title":"第一部分：构建内核","level":"1.2","depth":1,"path":"Part1.md","ref":"Part1.md","articles":[{"title":"1. 搭建工作环境：选择内核、处理器与工具链","level":"1.2.1","depth":2,"path":"Chapter1.md","ref":"Chapter1.md","articles":[{"title":"1.1. 认识嵌入式操作系统内核","level":"1.2.1.1","depth":3,"anchor":"#11-认识嵌入式操作系统内核","path":"Chapter1.md","ref":"Chapter1.md#11-认识嵌入式操作系统内核","articles":[{"title":"操作系统是什么","level":"1.2.1.1.1","depth":4,"ref":"","articles":[]},{"title":"嵌入式操作系统的特点","level":"1.2.1.1.2","depth":4,"ref":"","articles":[]},{"title":"内核要完成的工作","level":"1.2.1.1.3","depth":4,"ref":"","articles":[]},{"title":"内核的选择：微内核","level":"1.2.1.1.4","depth":4,"ref":"","articles":[]}]},{"title":"1.2. 选择硬件平台","level":"1.2.1.2","depth":3,"ref":"","articles":[{"title":"计算机组成简介","level":"1.2.1.2.1","depth":4,"ref":"","articles":[]},{"title":"ARM Cortex-M4处理器与STM32微控制器","level":"1.2.1.2.2","depth":4,"ref":"","articles":[]},{"title":"探索者STM32F407开发板","level":"1.2.1.2.3","depth":4,"ref":"","articles":[]}]},{"title":"1.3. 搭建开发工具链","level":"1.2.1.3","depth":3,"ref":"","articles":[{"title":"Linux系统环境及基本操作","level":"1.2.1.3.1","depth":4,"ref":"","articles":[]},{"title":"文本编辑器：VS Code","level":"1.2.1.3.2","depth":4,"ref":"","articles":[]},{"title":"交叉编译器：gcc-arm","level":"1.2.1.3.3","depth":4,"ref":"","articles":[]},{"title":"代码烧录器：OpenOCD","level":"1.2.1.3.4","depth":4,"ref":"","articles":[]},{"title":"在线调试器：GDB","level":"1.2.1.3.5","depth":4,"ref":"","articles":[]}]},{"title":"1.4. 小结","level":"1.2.1.4","depth":3,"ref":"","articles":[]}]},{"title":"2. 让处理器跑起来：编写boot引导程序","level":"1.2.2","depth":2,"path":"Chapter2.md","ref":"Chapter2.md","articles":[{"title":"2.1. 处理器的工作原理","level":"1.2.2.1","depth":3,"ref":"","articles":[{"title":"ARM Cortex-M4的内核结构","level":"1.2.2.1.1","depth":4,"ref":"","articles":[]},{"title":"ARM指令集与汇编语言简介","level":"1.2.2.1.2","depth":4,"ref":"","articles":[]},{"title":"STM32的上电过程","level":"1.2.2.1.3","depth":4,"ref":"","articles":[]}]},{"title":"2.2. 编写引导程序","level":"1.2.2.2","depth":3,"ref":"","articles":[{"title":"用汇编实现的启动文件: boot.s","level":"1.2.2.2.1","depth":4,"ref":"","articles":[]},{"title":"从汇编程序跳转到C程序的main()函数","level":"1.2.2.2.2","depth":4,"ref":"","articles":[]},{"title":"通过编译链接脚本生成二进制文件","level":"1.2.2.2.3","depth":4,"ref":"","articles":[]},{"title":"烧录并运行程序","level":"1.2.2.2.4","depth":4,"ref":"","articles":[]}]},{"title":"2.3. 小结","level":"1.2.2.3","depth":3,"ref":"","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter1.md","mtime":"2021-12-19T08:46:52.156Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-19T08:49:39.338Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1. 搭建工作环境：选择内核、处理器与工具链","level":"1.2.1","depth":2,"next":{"title":"1.1. 认识嵌入式操作系统内核","level":"1.2.1.1","depth":3,"anchor":"#11-认识嵌入式操作系统内核","path":"Chapter1.md","ref":"Chapter1.md#11-认识嵌入式操作系统内核","articles":[{"title":"操作系统是什么","level":"1.2.1.1.1","depth":4,"ref":"","articles":[]},{"title":"嵌入式操作系统的特点","level":"1.2.1.1.2","depth":4,"ref":"","articles":[]},{"title":"内核要完成的工作","level":"1.2.1.1.3","depth":4,"ref":"","articles":[]},{"title":"内核的选择：微内核","level":"1.2.1.1.4","depth":4,"ref":"","articles":[]}]},"previous":{"title":"第一部分：构建内核","level":"1.2","depth":1,"path":"Part1.md","ref":"Part1.md","articles":[{"title":"1. 搭建工作环境：选择内核、处理器与工具链","level":"1.2.1","depth":2,"path":"Chapter1.md","ref":"Chapter1.md","articles":[{"title":"1.1. 认识嵌入式操作系统内核","level":"1.2.1.1","depth":3,"anchor":"#11-认识嵌入式操作系统内核","path":"Chapter1.md","ref":"Chapter1.md#11-认识嵌入式操作系统内核","articles":[{"title":"操作系统是什么","level":"1.2.1.1.1","depth":4,"ref":"","articles":[]},{"title":"嵌入式操作系统的特点","level":"1.2.1.1.2","depth":4,"ref":"","articles":[]},{"title":"内核要完成的工作","level":"1.2.1.1.3","depth":4,"ref":"","articles":[]},{"title":"内核的选择：微内核","level":"1.2.1.1.4","depth":4,"ref":"","articles":[]}]},{"title":"1.2. 选择硬件平台","level":"1.2.1.2","depth":3,"ref":"","articles":[{"title":"计算机组成简介","level":"1.2.1.2.1","depth":4,"ref":"","articles":[]},{"title":"ARM Cortex-M4处理器与STM32微控制器","level":"1.2.1.2.2","depth":4,"ref":"","articles":[]},{"title":"探索者STM32F407开发板","level":"1.2.1.2.3","depth":4,"ref":"","articles":[]}]},{"title":"1.3. 搭建开发工具链","level":"1.2.1.3","depth":3,"ref":"","articles":[{"title":"Linux系统环境及基本操作","level":"1.2.1.3.1","depth":4,"ref":"","articles":[]},{"title":"文本编辑器：VS Code","level":"1.2.1.3.2","depth":4,"ref":"","articles":[]},{"title":"交叉编译器：gcc-arm","level":"1.2.1.3.3","depth":4,"ref":"","articles":[]},{"title":"代码烧录器：OpenOCD","level":"1.2.1.3.4","depth":4,"ref":"","articles":[]},{"title":"在线调试器：GDB","level":"1.2.1.3.5","depth":4,"ref":"","articles":[]}]},{"title":"1.4. 小结","level":"1.2.1.4","depth":3,"ref":"","articles":[]}]},{"title":"2. 让处理器跑起来：编写boot引导程序","level":"1.2.2","depth":2,"path":"Chapter2.md","ref":"Chapter2.md","articles":[{"title":"2.1. 处理器的工作原理","level":"1.2.2.1","depth":3,"ref":"","articles":[{"title":"ARM Cortex-M4的内核结构","level":"1.2.2.1.1","depth":4,"ref":"","articles":[]},{"title":"ARM指令集与汇编语言简介","level":"1.2.2.1.2","depth":4,"ref":"","articles":[]},{"title":"STM32的上电过程","level":"1.2.2.1.3","depth":4,"ref":"","articles":[]}]},{"title":"2.2. 编写引导程序","level":"1.2.2.2","depth":3,"ref":"","articles":[{"title":"用汇编实现的启动文件: boot.s","level":"1.2.2.2.1","depth":4,"ref":"","articles":[]},{"title":"从汇编程序跳转到C程序的main()函数","level":"1.2.2.2.2","depth":4,"ref":"","articles":[]},{"title":"通过编译链接脚本生成二进制文件","level":"1.2.2.2.3","depth":4,"ref":"","articles":[]},{"title":"烧录并运行程序","level":"1.2.2.2.4","depth":4,"ref":"","articles":[]}]},{"title":"2.3. 小结","level":"1.2.2.3","depth":3,"ref":"","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["katex","prism","prism-themes","-highlight","include-codeblock","ace"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter1.md","mtime":"2021-12-19T09:09:43.813Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-19T15:52:49.376Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -698,6 +706,14 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
