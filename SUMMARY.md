@@ -7,7 +7,7 @@
     * [致谢](/Introduction/)
 
 * [第一部分：构建内核](/Part1.md)
-    * [1. 搭建工作环境：选择内核、处理器与工具链](/Chapter1.md)
+    * [1. 搭建工作环境：选择内核、处理器与工具链](/Chapter1/README.md)
     * [2. 让处理器跑起来：编写boot引导程序](/Chapter2.md)
 
 
