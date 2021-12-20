@@ -9,7 +9,10 @@
         "include-codeblock",
         "ace",
         "splitter",
-        "chapter-fold"],
+        "chapter-fold",
+        "copy-code-button",
+        "-sharing",
+        "sharing-plus"],
 
     "pluginsConfig": {
         "prism": {
@@ -21,7 +24,16 @@
             "template": "ace",
             "unindent": true,
             "theme": "monokai"
-        }
-
+        },
+        "sharing": {
+             "douban": true,
+             "qq": true,
+             "qzone": true,
+             "weibo": true,
+          "all": [
+               "douban", "weibo",
+               "qq", "qzone"
+           ]
+       }
     }
 }
