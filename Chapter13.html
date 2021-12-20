@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>引言 · 一个嵌入式操作系统的实现过程</title>
+        <title>13. 扩展系统内存空间：突破片上内存的限制 · 一个嵌入式操作系统的实现过程</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -74,6 +74,8 @@
 
     
     
+    <link rel="prev" href="Part2.html" />
+    
 
     </head>
     <body>
@@ -101,7 +103,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -2234,7 +2236,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="Chapter13.html">
+        <li class="chapter active" data-level="1.3.1" data-path="Chapter13.html">
             
                 <a href="Chapter13.html">
             
@@ -3622,7 +3624,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >引言</a>
+        <a href="." >13. 扩展系统内存空间：突破片上内存的限制</a>
     </h1>
 </div>
 
@@ -3637,8 +3639,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x4E00;&#x4E2A;&#x5D4C;&#x5165;&#x5F0F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x5B9E;&#x73B0;&#x8FC7;&#x7A0B;">&#x4E00;&#x4E2A;&#x5D4C;&#x5165;&#x5F0F;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x5B9E;&#x73B0;&#x8FC7;&#x7A0B;</h1>
-
+                                
                                 
                                 </section>
                             
@@ -3665,6 +3666,10 @@
 
             
                 
+                <a href="Part2.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 第二部分：丰富内核">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
                 
             
         
@@ -3673,7 +3678,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"引言","level":"1.1","depth":1,"next":{"title":"一个嵌入式操作系统的实现过程","level":"1.1.1","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","prism","prism-themes","-highlight","include-codeblock","ace","splitter","chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"README.md","mtime":"2021-12-19T09:09:43.813Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T05:39:16.231Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"13. 扩展系统内存空间：突破片上内存的限制","level":"1.3.1","depth":2,"next":{"title":"13.1. 计算机的内存系统","level":"1.3.1.1","depth":3,"ref":"","articles":[{"title":"13.1.1. 计算机的层次化存储结构简介","level":"1.3.1.1.1","depth":4,"ref":"","articles":[]},{"title":"13.1.2. ARM Cortex-M4的内存空间划分","level":"1.3.1.1.2","depth":4,"ref":"","articles":[]},{"title":"13.1.3. STM32的静态存储管理器FSMC","level":"1.3.1.1.3","depth":4,"ref":"","articles":[]},{"title":"13.1.4. 开发板上的扩展内存SRAM","level":"1.3.1.1.4","depth":4,"ref":"","articles":[]}]},"previous":{"title":"第二部分：丰富内核","level":"1.3","depth":1,"path":"Part2.md","ref":"Part2.md","articles":[{"title":"13. 扩展系统内存空间：突破片上内存的限制","level":"1.3.1","depth":2,"path":"Chapter13.md","ref":"Chapter13.md","articles":[{"title":"13.1. 计算机的内存系统","level":"1.3.1.1","depth":3,"ref":"","articles":[{"title":"13.1.1. 计算机的层次化存储结构简介","level":"1.3.1.1.1","depth":4,"ref":"","articles":[]},{"title":"13.1.2. ARM Cortex-M4的内存空间划分","level":"1.3.1.1.2","depth":4,"ref":"","articles":[]},{"title":"13.1.3. STM32的静态存储管理器FSMC","level":"1.3.1.1.3","depth":4,"ref":"","articles":[]},{"title":"13.1.4. 开发板上的扩展内存SRAM","level":"1.3.1.1.4","depth":4,"ref":"","articles":[]}]},{"title":"13.2. 驱动扩展内存SRAM","level":"1.3.1.2","depth":3,"ref":"","articles":[{"title":"13.2.1. 配置FSMC的时钟和相关引脚","level":"1.3.1.2.1","depth":4,"ref":"","articles":[]},{"title":"13.2.2. 设置FSMC的工作模式","level":"1.3.1.2.2","depth":4,"ref":"","articles":[]},{"title":"13.2.3. 读写SRAM","level":"1.3.1.2.3","depth":4,"ref":"","articles":[]}]},{"title":"13.3. 小结","level":"1.3.1.3","depth":3,"ref":"","articles":[]}]},{"title":"14. 支持动态分配内存：构建内存管理系统","level":"1.3.2","depth":2,"path":"Chapter14.md","ref":"Chapter14.md","articles":[{"title":"14.1. 进程的内存空间","level":"1.3.2.1","depth":3,"ref":"","articles":[{"title":"14.1.1. 栈空间","level":"1.3.2.1.1","depth":4,"ref":"","articles":[]},{"title":"14.1.2. 堆空间","level":"1.3.2.1.2","depth":4,"ref":"","articles":[]},{"title":"14.1.3. 静态数据空间","level":"1.3.2.1.3","depth":4,"ref":"","articles":[]}]},{"title":"14.2. 实现堆空间内存的动态分配","level":"1.3.2.2","depth":3,"ref":"","articles":[{"title":"14.2.1. 初始化内存池","level":"1.3.2.2.1","depth":4,"ref":"","articles":[]},{"title":"14.2.2. malloc()接口实现","level":"1.3.2.2.2","depth":4,"ref":"","articles":[]},{"title":"14.2.3. free()接口实现 ","level":"1.3.2.2.3","depth":4,"ref":"","articles":[]}]},{"title":"14.3. 小结","level":"1.3.2.3","depth":3,"ref":"","articles":[]}]},{"title":"15.防止用户篡改系统数据：保护内核的内存空间","level":"1.3.3","depth":2,"path":"Chapter15.md","ref":"Chapter15.md","articles":[{"title":"15.1. 操作系统内核的内存空间","level":"1.3.3.1","depth":3,"ref":"","articles":[{"title":"15.1.1. 内核态与用户态","level":"1.3.3.1.1","depth":4,"ref":"","articles":[]},{"title":"15.1.2. ARM Cortex-M4的内存保护单元MPU","level":"1.3.3.1.2","depth":4,"ref":"","articles":[]},{"title":"15.1.3. 高级内存管理单元MMU简介","level":"1.3.3.1.3","depth":4,"ref":"","articles":[]}]},{"title":"15.2. 通过MPU保护内存空间","level":"1.3.3.2","depth":3,"ref":"","articles":[{"title":"15.2.1. 指定内核的内存空间","level":"1.3.3.2.1","depth":4,"ref":"","articles":[]},{"title":"15.2.2. 在进程描述符中记录内存的使用情况","level":"1.3.3.2.2","depth":4,"ref":"","articles":[]},{"title":"15.2.3. 在进程切换时修改MPU的保护项","level":"1.3.3.2.3","depth":4,"ref":"","articles":[]}]},{"title":"15.3. 小结","level":"1.3.3.3","depth":3,"ref":"","articles":[]}]},{"title":"16.解决内存数据掉电丢失的问题：扩展外部存储空间 ","level":"1.3.4","depth":2,"path":"Chapter16.md","ref":"Chapter16.md","articles":[{"title":"16.1. 计算机的外部存储","level":"1.3.4.1","depth":3,"ref":"","articles":[{"title":"16.1.1. 常见的外部存储介质","level":"1.3.4.1.1","depth":4,"ref":"","articles":[]},{"title":"16.1.2. 开发板上的SD存储卡","level":"1.3.4.1.2","depth":4,"ref":"","articles":[]},{"title":"16.1.3. STM32的SDIO接口","level":"1.3.4.1.3","depth":4,"ref":"","articles":[]}]},{"title":"16.2. 实现SD卡驱动程序","level":"1.3.4.2","depth":3,"ref":"","articles":[{"title":"16.2.1. 初始化SDIO接口","level":"1.3.4.2.1","depth":4,"ref":"","articles":[]},{"title":"16.2.2. 完成SD卡的枚举过程","level":"1.3.4.2.2","depth":4,"ref":"","articles":[]},{"title":"16.2.3. 实现SD卡的读写操作","level":"1.3.4.2.3","depth":4,"ref":"","articles":[]}]},{"title":"16.3. 实现SD卡驱动的专用进程","level":"1.3.4.3","depth":3,"ref":"","articles":[{"title":"16.3.1. 定义驱动进程的服务和消息","level":"1.3.4.3.1","depth":4,"ref":"","articles":[]},{"title":"16.3.2. 实现SD卡的驱动循环","level":"1.3.4.3.2","depth":4,"ref":"","articles":[]}]},{"title":"16.4. 小结","level":"1.3.4.4","depth":3,"ref":"","articles":[]}]},{"title":"17. 管理外部存储空间：构建文件系统","level":"1.3.5","depth":2,"path":"Chapter17.md","ref":"Chapter17.md","articles":[{"title":"17.1. 文件系统简介","level":"1.3.5.1","depth":3,"ref":"","articles":[{"title":"17.1.1. 文件系统的功能","level":"1.3.5.1.1","depth":4,"ref":"","articles":[]},{"title":"17.1.2. 文件与目录","level":"1.3.5.1.2","depth":4,"ref":"","articles":[]},{"title":"17.1.3. 常见的文件系统方案","level":"1.3.5.1.3","depth":4,"ref":"","articles":[]}]},{"title":"17.2. 建立一个基于FAT表的文件系统","level":"1.3.5.2","depth":3,"ref":"","articles":[{"title":"17.2.1. 设计文件的存放方式","level":"1.3.5.2.1","depth":4,"ref":"","articles":[]},{"title":"17.2.2. FAT表的实现","level":"1.3.5.2.2","depth":4,"ref":"","articles":[]},{"title":"17.2.3. 抽象文件属性","level":"1.3.5.2.3","depth":4,"ref":"","articles":[]},{"title":"17.2.4. 以文件形式存储的根目录","level":"1.3.5.2.4","depth":4,"ref":"","articles":[]},{"title":"17.2.5. 格式化磁盘的接口","level":"1.3.5.2.5","depth":4,"ref":"","articles":[]},{"title":"17.2.6. 解析文件名","level":"1.3.5.2.6","depth":4,"ref":"","articles":[]}]},{"title":"17.3. 小结","level":"1.3.5.3","depth":3,"ref":"","articles":[]}]},{"title":"18. 外部存储中数据的增删改查：实现文件系统管理器","level":"1.3.6","depth":2,"path":"Chapter18.md","ref":"Chapter18.md","articles":[{"title":"18.1. 实现文件系统的基本操作","level":"1.3.6.1","depth":3,"ref":"","articles":[{"title":"18.1.1. 检查文件是否存在","level":"1.3.6.1.1","depth":4,"ref":"","articles":[]},{"title":"18.1.2. 创建文件","level":"1.3.6.1.2","depth":4,"ref":"","articles":[]},{"title":"18.1.3. 打开文件","level":"1.3.6.1.3","depth":4,"ref":"","articles":[]},{"title":"18.1.4. 读写文件","level":"1.3.6.1.4","depth":4,"ref":"","articles":[]},{"title":"18.1.5. 关闭文件","level":"1.3.6.1.5","depth":4,"ref":"","articles":[]},{"title":"18.1.6. 删除文件","level":"1.3.6.1.6","depth":4,"ref":"","articles":[]}]},{"title":"18.2. 实现文件管理进程","level":"1.3.6.2","depth":3,"ref":"","articles":[{"title":"18.2.1. 文件系统基本操作的服务","level":"1.3.6.2.1","depth":4,"ref":"","articles":[]},{"title":"18.2.2. 实现管理进程的控制循环","level":"1.3.6.2.2","depth":4,"ref":"","articles":[]}]},{"title":"18.3. 小结","level":"1.3.6.3","depth":3,"ref":"","articles":[]}]},{"title":"19. 管理丰富多样的系统外设：建立统一的外设驱动框架","level":"1.3.7","depth":2,"path":"Chapter19.md","ref":"Chapter19.md","articles":[{"title":"19.1. 把外设抽象成文件","level":"1.3.7.1","depth":3,"ref":"","articles":[{"title":"19.1.1. 外设是一种特殊的文件","level":"1.3.7.1.1","depth":4,"ref":"","articles":[]},{"title":"19.1.2. 定义文件操作符file_operators","level":"1.3.7.1.2","depth":4,"ref":"","articles":[]},{"title":"19.1.3. 定义文件描述符file","level":"1.3.7.1.3","depth":4,"ref":"","articles":[]},{"title":"19.1.4. 定义已打开文件的描述符inode","level":"1.3.7.1.4","depth":4,"ref":"","articles":[]}]},{"title":"19.2. 把串口抽象为字符设备","level":"1.3.7.2","depth":3,"ref":"","articles":[{"title":"19.2.1. 向内核注册串口驱动","level":"1.3.7.2.1","depth":4,"ref":"","articles":[]},{"title":"19.2.2. 通过open()获取串口资源","level":"1.3.7.2.2","depth":4,"ref":"","articles":[]},{"title":"19.2.3. 通过close()释放串口资源","level":"1.3.7.2.3","depth":4,"ref":"","articles":[]},{"title":"19.2.4. 实现字符设备的读写接口","level":"1.3.7.2.4","depth":4,"ref":"","articles":[]},{"title":"19.2.5. 定义串口设备的配置接口ioctl()","level":"1.3.7.2.5","depth":4,"ref":"","articles":[]}]},{"title":"19.3. 把SD卡抽象为块设备","level":"1.3.7.3","depth":3,"ref":"","articles":[{"title":"19.3.1. 注册SD卡驱动","level":"1.3.7.3.1","depth":4,"ref":"","articles":[]},{"title":"19.3.2. 实现获取和释放SD卡资源的接口","level":"1.3.7.3.2","depth":4,"ref":"","articles":[]},{"title":"19.3.3. 实现块设备的读写接口","level":"1.3.7.3.3","depth":4,"ref":"","articles":[]},{"title":"19.3.4. 实现配置接口ioctl()","level":"1.3.7.3.4","depth":4,"ref":"","articles":[]}]},{"title":"19.4. 小结","level":"1.3.7.4","depth":3,"ref":"","articles":[]}]},{"title":"20. 发布内核V2.0","level":"1.3.8","depth":2,"path":"Chapter20.md","ref":"Chapter20.md","articles":[{"title":"20.1. 更新系统框图","level":"1.3.8.1","depth":3,"ref":"","articles":[]},{"title":"20.2. 内核V2.0的适用场景","level":"1.3.8.2","depth":3,"ref":"","articles":[]},{"title":"20.3. 可能的探索方向","level":"1.3.8.3","depth":3,"ref":"","articles":[]},{"title":"20.4. 小结","level":"1.3.8.4","depth":3,"ref":"","articles":[]}]}]},"dir":"neutral"},"config":{"plugins":["katex","prism","prism-themes","-highlight","include-codeblock","ace","splitter","chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter13.md","mtime":"2021-12-20T05:33:35.794Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T05:39:16.231Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
