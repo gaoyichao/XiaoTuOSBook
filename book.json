@@ -3,6 +3,8 @@
     "language": "zh-hans",
     "plugins": [
         "mygitalk",
+        "github-buttons",
+        "anchor-navigation-ex",
         "katex",
         "prism",
         "prism-themes",
@@ -22,7 +24,23 @@
             "repo": "XiaoTuOSBook",
             "owner": "gaoyichao",
             "admin": ["gaoyichao"],
+            "createIssueManually": true,
             "distractionFreeMode": false
+        },
+        "github-buttons": {
+            "buttons": [{
+              "user": "gaoyichao",
+              "repo": "XiaoTuOSBook",
+              "type": "star",
+              "count": true,
+              "size": "small"
+            }, {
+              "user": "gaoyichao",
+              "width": 160,
+              "type": "follow",
+              "count": true,
+              "size": "small"
+            }]
         },
         "prism": {
             "css": [
@@ -35,10 +53,10 @@
             "theme": "monokai"
         },
         "sharing": {
-             "douban": true,
-             "qq": true,
-             "qzone": true,
-             "weibo": true,
+             "douban": false,
+             "qq": false,
+             "qzone": false,
+             "weibo": false,
           "all": [
                "douban", "weibo",
                "qq", "qzone"
