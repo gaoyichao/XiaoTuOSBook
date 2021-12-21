@@ -42,6 +42,9 @@
               "size": "small"
             }]
         },
+        "anchor-navigation-ex": {
+            "showLevel": false 
+        },
         "prism": {
             "css": [
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
