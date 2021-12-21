@@ -1,0 +1,48 @@
+{
+    "title": "一个嵌入式操作系统的实现过程",
+    "language": "zh-hans",
+    "plugins": [
+        "mygitalk",
+        "katex",
+        "prism",
+        "prism-themes",
+        "-highlight",
+        "include-codeblock",
+        "ace",
+        "splitter",
+        "chapter-fold",
+        "copy-code-button",
+        "-sharing",
+        "sharing-plus"],
+
+    "pluginsConfig": {
+        "mygitalk": {
+            "clientID": "0a29908bfa64f1b1312f",
+            "clientSecret": "acdf4180a2d7ddc3938736146ab176cdc500cddb",
+            "repo": "XiaoTuOSBook",
+            "owner": "gaoyichao",
+            "admin": ["gaoyichao"],
+            "distractionFreeMode": false
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        },
+        "sharing": {
+             "douban": true,
+             "qq": true,
+             "qzone": true,
+             "weibo": true,
+          "all": [
+               "douban", "weibo",
+               "qq", "qzone"
+           ]
+       }
+    }
+}
