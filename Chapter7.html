@@ -17,7 +17,15 @@
     
             
                 
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
                 
             
                 
@@ -3664,7 +3672,7 @@
 <h3 id="732-echo&#x8FDB;&#x7A0B;&#x4E3B;&#x52A8;&#x6302;&#x8D77;">7.3.2. echo&#x8FDB;&#x7A0B;&#x4E3B;&#x52A8;&#x6302;&#x8D77;</h3>
 <h3 id="733-&#x5728;&#x4E32;&#x53E3;&#x63A5;&#x6536;&#x4E2D;&#x65AD;&#x670D;&#x52A1;&#x51FD;&#x6570;&#x4E2D;&#x5524;&#x9192;&#x8FDB;&#x7A0B;">7.3.3. &#x5728;&#x4E32;&#x53E3;&#x63A5;&#x6536;&#x4E2D;&#x65AD;&#x670D;&#x52A1;&#x51FD;&#x6570;&#x4E2D;&#x5524;&#x9192;&#x8FDB;&#x7A0B;</h3>
 <h2 id="74-&#x5C0F;&#x7ED3;">7.4. &#x5C0F;&#x7ED3;</h2>
-
+<div id="gitalk-container"></div>
                                 
                                 </section>
                             
@@ -3707,7 +3715,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"7.管理任务的运行状态：构建进程管理系统","level":"1.2.7","depth":2,"next":{"title":"7.1. 进程管理组件","level":"1.2.7.1","depth":3,"anchor":"#71-进程管理组件","path":"Chapter7.md","ref":"Chapter7.md#71-进程管理组件","articles":[{"title":"7.1.1. 进程描述符","level":"1.2.7.1.1","depth":4,"anchor":"#711-进程描述符","path":"Chapter7.md","ref":"Chapter7.md#711-进程描述符","articles":[]},{"title":"7.1.2. 进程的状态机","level":"1.2.7.1.2","depth":4,"anchor":"#712-进程的状态机","path":"Chapter7.md","ref":"Chapter7.md#712-进程的状态机","articles":[]},{"title":"7.1.3. 进程队列","level":"1.2.7.1.3","depth":4,"anchor":"#713-进程队列","path":"Chapter7.md","ref":"Chapter7.md#713-进程队列","articles":[]}]},"previous":{"title":"6.3. 小结","level":"1.2.6.3","depth":3,"anchor":"#63-小结","path":"Chapter6.md","ref":"Chapter6.md#63-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter7.md","mtime":"2021-12-20T15:24:12.471Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T18:04:40.433Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"7.管理任务的运行状态：构建进程管理系统","level":"1.2.7","depth":2,"next":{"title":"7.1. 进程管理组件","level":"1.2.7.1","depth":3,"anchor":"#71-进程管理组件","path":"Chapter7.md","ref":"Chapter7.md#71-进程管理组件","articles":[{"title":"7.1.1. 进程描述符","level":"1.2.7.1.1","depth":4,"anchor":"#711-进程描述符","path":"Chapter7.md","ref":"Chapter7.md#711-进程描述符","articles":[]},{"title":"7.1.2. 进程的状态机","level":"1.2.7.1.2","depth":4,"anchor":"#712-进程的状态机","path":"Chapter7.md","ref":"Chapter7.md#712-进程的状态机","articles":[]},{"title":"7.1.3. 进程队列","level":"1.2.7.1.3","depth":4,"anchor":"#713-进程队列","path":"Chapter7.md","ref":"Chapter7.md#713-进程队列","articles":[]}]},"previous":{"title":"6.3. 小结","level":"1.2.6.3","depth":3,"anchor":"#63-小结","path":"Chapter6.md","ref":"Chapter6.md#63-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["mygitalk","katex","prism","prism-themes","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"0a29908bfa64f1b1312f","number":-1,"perPage":10,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","admin":["gaoyichao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"XiaoTuOSBook","owner":"gaoyichao","enableHotKey":true,"clientSecret":"acdf4180a2d7ddc3938736146ab176cdc500cddb","pagerDirection":"last","labels":["Gitalk"]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter7.md","mtime":"2021-12-20T15:24:12.471Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-21T16:19:02.688Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -3715,6 +3723,18 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>

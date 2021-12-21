@@ -17,7 +17,15 @@
     
             
                 
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
                 
             
                 
@@ -3660,7 +3668,7 @@
 <h3 id="1522-&#x5728;&#x8FDB;&#x7A0B;&#x63CF;&#x8FF0;&#x7B26;&#x4E2D;&#x8BB0;&#x5F55;&#x5185;&#x5B58;&#x7684;&#x4F7F;&#x7528;&#x60C5;&#x51B5;">15.2.2. &#x5728;&#x8FDB;&#x7A0B;&#x63CF;&#x8FF0;&#x7B26;&#x4E2D;&#x8BB0;&#x5F55;&#x5185;&#x5B58;&#x7684;&#x4F7F;&#x7528;&#x60C5;&#x51B5;</h3>
 <h3 id="1523-&#x5728;&#x8FDB;&#x7A0B;&#x5207;&#x6362;&#x65F6;&#x4FEE;&#x6539;mpu&#x7684;&#x4FDD;&#x62A4;&#x9879;">15.2.3. &#x5728;&#x8FDB;&#x7A0B;&#x5207;&#x6362;&#x65F6;&#x4FEE;&#x6539;MPU&#x7684;&#x4FDD;&#x62A4;&#x9879;</h3>
 <h2 id="153-&#x5C0F;&#x7ED3;">15.3. &#x5C0F;&#x7ED3;</h2>
-
+<div id="gitalk-container"></div>
                                 
                                 </section>
                             
@@ -3703,7 +3711,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"15.防止用户篡改系统数据：保护内核的内存空间","level":"1.3.3","depth":2,"next":{"title":"15.1. 操作系统内核的内存空间","level":"1.3.3.1","depth":3,"anchor":"#151-操作系统内核的内存空间","path":"Chapter15.md","ref":"Chapter15.md#151-操作系统内核的内存空间","articles":[{"title":"15.1.1. 内核态与用户态","level":"1.3.3.1.1","depth":4,"anchor":"#1511-内核态与用户态","path":"Chapter15.md","ref":"Chapter15.md#1511-内核态与用户态","articles":[]},{"title":"15.1.2. ARM Cortex-M4的内存保护单元MPU","level":"1.3.3.1.2","depth":4,"anchor":"#1512-arm-cortex-m4的内存保护单元mpu","path":"Chapter15.md","ref":"Chapter15.md#1512-arm-cortex-m4的内存保护单元mpu","articles":[]},{"title":"15.1.3. 高级内存管理单元MMU简介","level":"1.3.3.1.3","depth":4,"anchor":"#1513-高级内存管理单元mmu简介","path":"Chapter15.md","ref":"Chapter15.md#1513-高级内存管理单元mmu简介","articles":[]}]},"previous":{"title":"14.3. 小结","level":"1.3.2.3","depth":3,"anchor":"#143-小结","path":"Chapter14.md","ref":"Chapter14.md#143-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter15.md","mtime":"2021-12-20T15:30:25.582Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T18:04:40.433Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"15.防止用户篡改系统数据：保护内核的内存空间","level":"1.3.3","depth":2,"next":{"title":"15.1. 操作系统内核的内存空间","level":"1.3.3.1","depth":3,"anchor":"#151-操作系统内核的内存空间","path":"Chapter15.md","ref":"Chapter15.md#151-操作系统内核的内存空间","articles":[{"title":"15.1.1. 内核态与用户态","level":"1.3.3.1.1","depth":4,"anchor":"#1511-内核态与用户态","path":"Chapter15.md","ref":"Chapter15.md#1511-内核态与用户态","articles":[]},{"title":"15.1.2. ARM Cortex-M4的内存保护单元MPU","level":"1.3.3.1.2","depth":4,"anchor":"#1512-arm-cortex-m4的内存保护单元mpu","path":"Chapter15.md","ref":"Chapter15.md#1512-arm-cortex-m4的内存保护单元mpu","articles":[]},{"title":"15.1.3. 高级内存管理单元MMU简介","level":"1.3.3.1.3","depth":4,"anchor":"#1513-高级内存管理单元mmu简介","path":"Chapter15.md","ref":"Chapter15.md#1513-高级内存管理单元mmu简介","articles":[]}]},"previous":{"title":"14.3. 小结","level":"1.3.2.3","depth":3,"anchor":"#143-小结","path":"Chapter14.md","ref":"Chapter14.md#143-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["mygitalk","katex","prism","prism-themes","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"0a29908bfa64f1b1312f","number":-1,"perPage":10,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","admin":["gaoyichao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"XiaoTuOSBook","owner":"gaoyichao","enableHotKey":true,"clientSecret":"acdf4180a2d7ddc3938736146ab176cdc500cddb","pagerDirection":"last","labels":["Gitalk"]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter15.md","mtime":"2021-12-20T15:30:25.582Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-21T16:19:02.688Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -3711,6 +3719,18 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>

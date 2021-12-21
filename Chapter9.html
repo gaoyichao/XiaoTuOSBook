@@ -17,7 +17,15 @@
     
             
                 
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
                 
             
                 
@@ -3662,7 +3670,7 @@
 <h3 id="924-&#x5728;&#x4E2D;&#x65AD;&#x4E2D;&#x53D1;&#x5E03;&#x4E8B;&#x4EF6;&#x4FE1;&#x53F7;">9.2.4. &#x5728;&#x4E2D;&#x65AD;&#x4E2D;&#x53D1;&#x5E03;&#x4E8B;&#x4EF6;&#x4FE1;&#x53F7;</h3>
 <h3 id="925-&#x5728;&#x8C03;&#x5EA6;&#x65F6;&#x5524;&#x9192;&#x7B49;&#x5F85;&#x7684;&#x8FDB;&#x7A0B;">9.2.5. &#x5728;&#x8C03;&#x5EA6;&#x65F6;&#x5524;&#x9192;&#x7B49;&#x5F85;&#x7684;&#x8FDB;&#x7A0B;</h3>
 <h2 id="93-&#x5C0F;&#x7ED3;">9.3. &#x5C0F;&#x7ED3;</h2>
-
+<div id="gitalk-container"></div>
                                 
                                 </section>
                             
@@ -3705,7 +3713,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9. 解除进程与外设的关联：用信号通知进程中断事件","level":"1.2.9","depth":2,"next":{"title":"9.1. 中断、事件与信号","level":"1.2.9.1","depth":3,"anchor":"#91-中断、事件与信号","path":"Chapter9.md","ref":"Chapter9.md#91-中断、事件与信号","articles":[{"title":"9.1.1. echo进程与串口中断服务的耦合关系","level":"1.2.9.1.1","depth":4,"anchor":"#911-echo进程与串口中断服务的耦合关系","path":"Chapter9.md","ref":"Chapter9.md#911-echo进程与串口中断服务的耦合关系","articles":[]},{"title":"9.1.2. 把中断抽象成事件","level":"1.2.9.1.2","depth":4,"anchor":"#912-把中断抽象成事件","path":"Chapter9.md","ref":"Chapter9.md#912-把中断抽象成事件","articles":[]},{"title":"9.1.3. 发布事件发生的信号","level":"1.2.9.1.3","depth":4,"anchor":"#913-发布事件发生的信号","path":"Chapter9.md","ref":"Chapter9.md#913-发布事件发生的信号","articles":[]}]},"previous":{"title":"8.3. 小结","level":"1.2.8.3","depth":3,"anchor":"#83-小结","path":"Chapter8.md","ref":"Chapter8.md#83-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["katex","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"disqus":{"shortName":"gitbookuse"},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"copy-code-button":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter9.md","mtime":"2021-12-20T15:44:38.707Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-20T18:04:40.433Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9. 解除进程与外设的关联：用信号通知进程中断事件","level":"1.2.9","depth":2,"next":{"title":"9.1. 中断、事件与信号","level":"1.2.9.1","depth":3,"anchor":"#91-中断、事件与信号","path":"Chapter9.md","ref":"Chapter9.md#91-中断、事件与信号","articles":[{"title":"9.1.1. echo进程与串口中断服务的耦合关系","level":"1.2.9.1.1","depth":4,"anchor":"#911-echo进程与串口中断服务的耦合关系","path":"Chapter9.md","ref":"Chapter9.md#911-echo进程与串口中断服务的耦合关系","articles":[]},{"title":"9.1.2. 把中断抽象成事件","level":"1.2.9.1.2","depth":4,"anchor":"#912-把中断抽象成事件","path":"Chapter9.md","ref":"Chapter9.md#912-把中断抽象成事件","articles":[]},{"title":"9.1.3. 发布事件发生的信号","level":"1.2.9.1.3","depth":4,"anchor":"#913-发布事件发生的信号","path":"Chapter9.md","ref":"Chapter9.md#913-发布事件发生的信号","articles":[]}]},"previous":{"title":"8.3. 小结","level":"1.2.8.3","depth":3,"anchor":"#83-小结","path":"Chapter8.md","ref":"Chapter8.md#83-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["mygitalk","katex","prism","prism-themes","-highlight","include-codeblock","ace","splitter","chapter-fold","copy-code-button","-sharing","sharing-plus"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"prism-themes":{},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"0a29908bfa64f1b1312f","number":-1,"perPage":10,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","admin":["gaoyichao"],"createIssueManually":false,"distractionFreeMode":false,"repo":"XiaoTuOSBook","owner":"gaoyichao","enableHotKey":true,"clientSecret":"acdf4180a2d7ddc3938736146ab176cdc500cddb","pagerDirection":"last","labels":["Gitalk"]},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"ace","theme":"monokai","unindent":true},"sharing":{"douban":true,"qq":true,"qzone":true,"weibo":true,"all":["douban","weibo","qq","qzone"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"一个嵌入式操作系统的实现过程","language":"zh-hans","gitbook":"*"},"file":{"path":"Chapter9.md","mtime":"2021-12-20T15:44:38.707Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-21T16:19:02.688Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -3713,6 +3721,18 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
